@@ -1,0 +1,27 @@
+#switch ul {
+  width: 100%;
+  display: flex; }
+  #switch ul li {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease; }
+    #switch ul li:first-child {
+      border-radius: 4px 0px 0px 4px; }
+    #switch ul li:last-child {
+      border-radius: 0px 4px 4px 0px;
+      border-bottom: 0px; }
+
+.vertical-switch {
+  height: 100%; }
+  .vertical-switch ul {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; }
+    .vertical-switch ul li:first-child {
+      border-radius: 4px 4px 0px 0px !important; }
+    .vertical-switch ul li:last-child {
+      border-radius: 0px 0px 4px 4px !important; }
